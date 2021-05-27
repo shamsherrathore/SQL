@@ -29,4 +29,4 @@ WHERE Address IS NULL;
 /* Lists all customers with a value in the "Address" field: */
 SELECT CustomerID, CustomerName, Address
 FROM CustomerComplaint
-WHERE Address IS NOT NULL;
+WHERE Address IS NOT NULL
